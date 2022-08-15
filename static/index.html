@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRM Backend Implementation</title>
+  </head>
+  <body>
+    <h1>CRM Backend Implementation</h1>
+    <p>The application handles the following 5 operations for customers in mock database:</p>
+    <ul>
+      <li>Getting a single customer through a /customers/{id} path</li>
+      <li>Getting all customers through a the /customers path</li>
+      <li>Creating a customer through a /customers path</li>
+      <li>Updating a customer through a /customers/{id} path</li>
+      <li>Deleting a customer through a /customers path</li>
+      
+    </ul>
+
+    <h2>Details</h2>
+    <p>The application uses a router - gorilla/mux that supports HTTP method-based routing and variables in URL paths.</p>
+    <p>The Handler interface is used to handle HTTP requests sent to defined paths.</p>
+    <p>There are five routes that return a JSON response, and each is registered to a dedicated handler:</p>
+
+      
+
+      <ul>
+        <li>getCustomers()</li>
+        <li>getCustomer()</li>
+        <li>addCustomer()</li>
+        <li>addCustomer()</li>
+        <li>deleteCustomer()</li>
+        
+      </ul>
+  </body>
+</html>
