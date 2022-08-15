@@ -12,11 +12,13 @@ The application handles the following 5 operations for customers in mock databas
 
 ## Setup
 
-Use `go run main.go` to run any of the scripts.
+Use `go run main.go` to run any of the scripts in any IDE like Visual Studio Code. You would need Go language downloaded and extension for Go enabled in VS code to get it working.
 
 If you encounter missing package issues, run `go get`.
 
-Run `go get github.com/google/uuid` for UUID 
+## Dependencies
+
+Run `go get github.com/google/uuid` for UUID libraries installation
 
 
 ## Testing
