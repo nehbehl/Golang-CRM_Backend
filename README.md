@@ -1,11 +1,11 @@
 # CRM Backend Project Solution
 
-This repo contains implementation of CRM Backend using Go language
+This repo contains implementation of CRM Backend using Go language.
 
 The application handles the following 5 operations for customers in mock database:
 
 * Getting a single customer through a /customers/{id} path
-* Getting all customers through a the /customers path
+* Getting all customers through a /customers path
 * Creating a customer through a /customers path
 * Updating a customer through a /customers/{id} path
 * Deleting a customer through a /customers/{id} path
@@ -18,14 +18,14 @@ If you encounter missing package issues, run `go get`.
 
 ## Dependencies
 
-Run `go get github.com/google/uuid` for UUID libraries installation
+Run `go get github.com/google/uuid` for UUID libraries installation.
 
 
 ## Testing
 
 Users can interact with the application (i.e., make API requests) by simply using Postman or cURL.
 
-Also, main_test.go method can be run using `go test` to check each function implementation
+Also, main_test.go method can be run using `go test` to check each function implementation.
 
 ## Details
 
